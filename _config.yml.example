@@ -68,10 +68,10 @@ footer:
 
 # 如何开启 评论&统计 插件
 leancloud:
-  clientID: c25f9357175309ad6c9c
-  clientSecret: 070029ae86a3de68b82a47872aeddf5ffa9e60ee
-  user: Ash-sc
-  repo: blog-comments
+  clientID: # github clientID
+  clientSecret: # github clientSecret
+  user: # github user name
+  repo: # repo name
   type: github
   comment: true # 是否开启评论系统
   timer: false # 是否开启文章统计
@@ -106,11 +106,11 @@ nav:
   #   children:
   #     -
   #       name: Github
-  #       path: "https://github.com/dongyuanxin"
+  #       path: "https://github.com/Ash-sc"
   #       blank: true
   #     -
   #       name: "知乎"
-  #       path: "https://www.zhihu.com/people/godbmw/activities"
+  #       path: "https://www.zhihu.com/people/people/chen-chuang-26/activities"
   #       blank: true
 
 # 友链详细信息：支持多个友链

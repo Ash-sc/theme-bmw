@@ -31,11 +31,6 @@ const getRealPath = pathname => {
           </a>
       </span>
     <% } %>
-    <% if(theme.leancloud.timer){ %>
-      <span>
-        浏览 : <span class="article-timer" data-identity="<%- getRealPath(page.path) %>"></span>
-      </span>
-    <% } %>
   </div>
 
   <% if(theme.player && page.playlist){ %>
