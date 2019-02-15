@@ -55,7 +55,7 @@
     <link rel="apple-touch-icon" href="<%- theme.favicon.touch_icon %>">
   <% } %>
 
-  <link href="https://cdn.bootcss.com/fancybox/3.5.2/jquery.fancybox.min.css" rel="stylesheet">
+  <link href="/css/jquery.fancybox.min.css" rel="stylesheet">
   <%- css(['/css/base.css', '/icon/iconfont.css' ,'/css/github-markdown.css', '/css/highlight.css', '/css/commentjs.css']) %>
 
   <%- js(['/js/util.js']) %>
@@ -74,10 +74,10 @@
   <% } %>
 
   <% if(theme.leancloud.comment){ %>
-    <script src="https://cdn.bootcss.com/marked/0.5.2/marked.min.js" async></script>
-    <script src="https://cdn.bootcss.com/timeago.js/3.0.2/timeago.min.js" async></script>
-    <script src="https://cdn.bootcss.com/spin.js/2.3.2/spin.min.js" async></script>
-    <script src="https://cdn.bootcss.com/highlight.js/9.13.1/highlight.min.js" async></script>
-    <script src="/js/commentjs.js" async></script>
+    <script src="https://cdn.bootcss.com/marked/0.5.2/marked.min.js"></script>
+    <script src="https://cdn.bootcss.com/timeago.js/3.0.2/timeago.min.js"></script>
+    <script src="https://cdn.bootcss.com/spin.js/2.3.2/spin.min.js"></script>
+    <script src="https://cdn.bootcss.com/highlight.js/9.13.1/highlight.min.js"></script>
+    <script src="/js/commentjs.js"></script>
   <% } %>
 </head>
