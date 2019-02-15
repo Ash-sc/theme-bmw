@@ -70,8 +70,8 @@ footer:
 leancloud:
   clientID: # github clientID
   clientSecret: # github clientSecret
-  user: # github user name
-  repo: # repo name
+  user: Ash-sc
+  repo: blog-comments
   type: github
   comment: true # 是否开启评论系统
   timer: false # 是否开启文章统计
@@ -101,14 +101,14 @@ nav:
   # - 
     name: 关于
     path: /about/
-  # - 
-  #   name: 抓到我
-  #   children:
-  #     -
-  #       name: Github
-  #       path: "https://github.com/Ash-sc"
-  #       blank: true
-  #     -
+  - 
+    name: 抓到我
+    children:
+      -
+        name: Github
+        path: "https://github.com/Ash-sc"
+        blank: true
+      # -
   #       name: "知乎"
   #       path: "https://www.zhihu.com/people/people/chen-chuang-26/activities"
   #       blank: true
