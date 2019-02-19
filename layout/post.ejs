@@ -63,20 +63,34 @@
   <%- partial('/component/passage-viewer') %>
 
   <nav class="post-navigation">
-    <% if(page.next){ %>
+    <!-- <% if(page.next){ %>
       <div class="nav-pre">
         <i class="iconfont icon-prev"></i>
         上一篇:
         <a href="<%= url_for(page.next.path)%>" target="_self"><%- page.next.title %></a>
       </div>
-    <% } %>
+    <% } %> -->
     <% if(page.prev){ %>
+      <div class="nav-pre">
+        上一篇:
+        <a href="<%= url_for(page.prev.path)%>" target="_self"><%- page.prev.title %></a>
+        <i class="iconfont icon-pre"></i>
+      </div>
+    <% } %>
+    <% if(page.next){ %>
+      <div class="nav-next">
+        下一篇:
+        <a href="<%= url_for(page.next.path)%>" target="_self"><%- page.next.title %></a>
+        <i class="iconfont icon-next"></i>
+      </div>
+    <% } %>
+    <!-- <% if(page.prev){ %>
       <div class="nav-next">
         下一篇:
         <a href="<%= url_for(page.prev.path)%>" target="_self"><%- page.prev.title %></a>
         <i class="iconfont icon-next"></i>
       </div>
-    <% } %>
+    <% } %> -->
   </nav>
 
   <% if(theme.leancloud.comment){ %>
